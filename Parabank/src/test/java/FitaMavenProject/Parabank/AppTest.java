@@ -12,7 +12,7 @@ public class AppTest {
     /**
      * Rigorous Test :-)
      */
-    System.out.println("Hello World");
+    System.out.println("hi how are you");
         @Test
     public void shouldAnswerWithTrue() {
         assertTrue(true);
