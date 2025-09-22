@@ -12,7 +12,8 @@ public class AppTest {
     /**
      * Rigorous Test :-)
      */
-    @Test
+    System.out.println("Hello World");
+        @Test
     public void shouldAnswerWithTrue() {
         assertTrue(true);
     }
