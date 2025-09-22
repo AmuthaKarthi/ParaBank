@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Para Bank Suite">
+<parameter name="browser" value="firefox"/>
+      <listeners>
+        <listener class-name="resource.TestListener"/>
+    </listeners>
+
+  <test name="Para Bank full flow">
+    <classes>
+      <class name="FitaMavenProject.Parabank.ParaBankTest"/>  
+     </classes>
+  </test> 
+  
+</suite>
