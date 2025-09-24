@@ -13,6 +13,11 @@ public class AppTest {
      * Rigorous Test :-)
      */
     System.out.println("hi how are you");
+     System.out.println("Clone");
+    System.out.println("hi how are hello");
+    System.out.println("Akshya");
+    
+   
         @Test
     public void shouldAnswerWithTrue() {
         assertTrue(true);
