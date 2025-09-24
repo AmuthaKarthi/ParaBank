@@ -50,6 +50,8 @@ public class ParaBankTest extends BaseTest {
         accountsPage.openAccountDetails(secondAcc);
         accountsPage.filterStatement("March", "Credit");
         System.out.println("Statement Summary (Second Account): " + accountsPage.getStatementSummary());
+        System.out.println(" THANK YOY ");
+        
     }
 }
 

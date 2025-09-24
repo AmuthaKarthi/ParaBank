@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-17T23:41:16 GMT+08:00" name="Para Bank Suite" finished-at="2025-09-17T23:41:39 GMT+08:00" duration-ms="23124">
+  <suite started-at="2025-09-24T23:45:57 SGT" name="Para Bank Suite" finished-at="2025-09-24T23:46:25 SGT" duration-ms="28164">
     <groups>
     </groups>
-    <test started-at="2025-09-17T23:41:16 GMT+08:00" name="Para Bank full flow" finished-at="2025-09-17T23:41:39 GMT+08:00" duration-ms="23124">
+    <test started-at="2025-09-24T23:45:57 SGT" name="Para Bank full flow" finished-at="2025-09-24T23:46:25 SGT" duration-ms="28164">
       <class name="FitaMavenProject.Parabank.ParaBankTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:FitaMavenProject.Parabank.ParaBankTest@3d74bf60]" started-at="2025-09-17T23:41:16 GMT+08:00" name="setUp" finished-at="2025-09-17T23:41:22 GMT+08:00" duration-ms="5877" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:FitaMavenProject.Parabank.ParaBankTest@9f116cc]" started-at="2025-09-24T23:45:57 SGT" name="setUp" finished-at="2025-09-24T23:46:05 SGT" duration-ms="7572" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFullEndToEndFlow()[pri:0, instance:FitaMavenProject.Parabank.ParaBankTest@3d74bf60]" started-at="2025-09-17T23:41:22 GMT+08:00" name="testFullEndToEndFlow" finished-at="2025-09-17T23:41:38 GMT+08:00" duration-ms="16052" status="PASS">
+        <test-method signature="testFullEndToEndFlow()[pri:0, instance:FitaMavenProject.Parabank.ParaBankTest@9f116cc]" started-at="2025-09-24T23:46:05 SGT" name="testFullEndToEndFlow" finished-at="2025-09-24T23:46:24 SGT" duration-ms="19320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFullEndToEndFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FitaMavenProject.Parabank.ParaBankTest@3d74bf60]" started-at="2025-09-17T23:41:38 GMT+08:00" name="tearDown" finished-at="2025-09-17T23:41:39 GMT+08:00" duration-ms="936" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FitaMavenProject.Parabank.ParaBankTest@9f116cc]" started-at="2025-09-24T23:46:24 SGT" name="tearDown" finished-at="2025-09-24T23:46:25 SGT" duration-ms="954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
