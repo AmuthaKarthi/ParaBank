@@ -1,0 +1,6 @@
+2025-09-25 00:17:34,498 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-09-25 00:22:38,645 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: FitaMavenProject:Parabank:0.0.1-SNAPSHOT @ /Users/ame/GitParaBankClone/Parabank/pom.xml.
+2025-09-25 00:22:40,130 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/ame/GitParaBankClone/Parabank/src/main/resources
+2025-09-25 00:22:40,137 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/ame/GitParaBankClone/Parabank/src/test/resources
+2025-09-25 00:22:41,589 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/ame/GitParaBankClone/Parabank/src/main/resources
+2025-09-25 00:22:41,592 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/ame/GitParaBankClone/Parabank/src/test/resources
