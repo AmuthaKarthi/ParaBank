@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Para Bank Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="resource.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Para Bank full flow(failed)">
+    <classes>
+      <class name="FitaMavenProject.Parabank.ParaBankTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testFullEndToEndFlow"/>
+        </methods>
+      </class> <!-- FitaMavenProject.Parabank.ParaBankTest -->
+    </classes>
+  </test> <!-- Para Bank full flow(failed) -->
+</suite> <!-- Failed suite [Para Bank Suite] -->
