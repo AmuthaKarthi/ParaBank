@@ -32,14 +32,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- JUnit (optional, in case you use JUnit too) -->
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.10.2</version>
-            <scope>test</scope>
-        </dependency>
-
+     
         <!-- Lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -98,7 +91,7 @@
                 <version>3.2.5</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>testSuites/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
