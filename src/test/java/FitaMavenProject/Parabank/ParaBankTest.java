@@ -52,13 +52,7 @@ public class ParaBankTest extends BaseTest {
         System.out.println("Statement Summary (Second Account): " + accountsPage.getStatementSummary());
         System.out.println("Thank you Poomani");
         System.out.println("Thank you Rahul shetty");
-        System.out.println("Thank you Udamy");
-        System.out.println("Thank you Fita");
-        System.out.println("Thank you Poomani");
-        System.out.println("Thank you Rahul shetty");
-        System.out.println("Thank you Udamy");
-        System.out.println("Thank you Fita");
-
+        
     }
 }
 
