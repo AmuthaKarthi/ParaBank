@@ -29,8 +29,9 @@ public class ParaBankTest extends BaseTest {
         // Open New Account
         AccountsPage accountsPage = new AccountsPage(driver);
         accountsPage.navigateToOpenNewAccount();
-        accountsPage.selectAccountType("1"); // Savings
         Thread.sleep(5000);
+        accountsPage.selectAccountType("1"); // Savings
+        
        // accountsPage.getAccountNumber("0");
         accountsPage.clickOpenAccount();
 
