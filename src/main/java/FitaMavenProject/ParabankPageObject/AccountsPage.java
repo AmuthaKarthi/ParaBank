@@ -9,7 +9,7 @@ import abstactComponents.BasePage;
 public class AccountsPage extends BasePage {
 
     private By openNewAccountLink = By.linkText("Open New Account");
-    private By accountTypeDropdown = By.id("type");
+    public By accountTypeDropdown = By.id("type");
     //private By fromAccountDropdown = By.id("fromAccountId");
     private By openAccountBtn = By.xpath("//input[@value='Open New Account']");
     private By congratulationsMessage = By.xpath("//p[contains(text(),'Congratulations')]");
@@ -28,6 +28,7 @@ public class AccountsPage extends BasePage {
     }
 
     public void selectAccountType(String typeValue) {
+    	waitForVisibility(accountTypeDropdown);
         Select select = new Select(driver.findElement(accountTypeDropdown));
         select.selectByValue(typeValue);
     }
