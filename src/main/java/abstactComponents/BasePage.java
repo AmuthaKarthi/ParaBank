@@ -19,7 +19,7 @@ public class BasePage
 
     // Generic click method
     public void click(By locator) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
     }
 
     // Generic sendKeys method
