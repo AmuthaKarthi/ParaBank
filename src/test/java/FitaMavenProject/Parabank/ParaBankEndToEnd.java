@@ -4,7 +4,6 @@ import java.time.Duration;
 import java.util.List;
 
 import org.apache.commons.lang3.RandomStringUtils;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,11 +12,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class ParaBankEndToEnd 
 {
 
-	public static void main(String[] args) throws InterruptedException
+	@Test
+	public void paraBankEndToEnd() throws InterruptedException
 	{
 		System.setProperty("webdriver.chromedriver", "/Users/ame/Documents/chromedriver");
 		WebDriver driver = new ChromeDriver();
