@@ -30,7 +30,7 @@ public class ParaBankTest extends BaseTest {
         AccountsPage accountsPage = new AccountsPage(driver);
         accountsPage.navigateToOpenNewAccount();
         accountsPage.selectAccountType("1"); // Savings
-        accountsPage.selectAccountNumber("0");
+       // accountsPage.getAccountNumber("0");
         accountsPage.clickOpenAccount();
 
         String accountMsg = accountsPage.getAccountOpenedMessage();
@@ -52,7 +52,6 @@ public class ParaBankTest extends BaseTest {
         System.out.println("Statement Summary (Second Account): " + accountsPage.getStatementSummary());
         System.out.println("Thank you Poomani");
         System.out.println("Thank you Rahul shetty");
-        System.out.println("New Message");
         
         
     }
