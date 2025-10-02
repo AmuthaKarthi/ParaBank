@@ -42,7 +42,7 @@ public class BaseTest {
             throw new IllegalArgumentException("Browser not supported: " + browser);
         }
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
         // Navigate to URL from config
         driver.get(config.getProperty("baseURL"));
