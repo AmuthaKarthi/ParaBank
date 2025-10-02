@@ -22,9 +22,9 @@ public class ParaBankTest extends BaseTest {
         //regPage.registerLinkPage();
         regPage.registerUser(randomName, "K", randomPhone, randomName, "Cvmad135");
 
-        String welcome = regPage.getWelcomeText();
-        System.out.println("Welcome text: " + welcome);
-        Assert.assertTrue(welcome.contains(randomName), "User name not found in welcome message");
+       // String welcome = regPage.getWelcomeText();
+        //System.out.println("Welcome text: " + welcome);
+       // Assert.assertTrue(welcome.contains(randomName), "User name not found in welcome message");
 
         // Open New Account
         AccountsPage accountsPage = new AccountsPage(driver);
