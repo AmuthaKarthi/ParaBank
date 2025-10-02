@@ -30,7 +30,7 @@ public class ParaBankTest extends BaseTest {
         AccountsPage accountsPage = new AccountsPage(driver);
         accountsPage.navigateToOpenNewAccount();
         accountsPage.selectAccountType("1"); // Savings
-        accountsPage.selectAccountNumber("0");
+       // accountsPage.selectAccountNumber("0");
         accountsPage.clickOpenAccount();
 
         String accountMsg = accountsPage.getAccountOpenedMessage();
