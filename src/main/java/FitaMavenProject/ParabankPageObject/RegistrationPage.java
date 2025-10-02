@@ -24,7 +24,8 @@ public class RegistrationPage extends BasePage {
     private By registerBtn = By.xpath("//input[@value='Register']");
     private By welcomeText = By.cssSelector(".title");
 
-    public RegistrationPage(WebDriver driver) {
+    public RegistrationPage(WebDriver driver)
+    {
         super(driver);
        
     }
