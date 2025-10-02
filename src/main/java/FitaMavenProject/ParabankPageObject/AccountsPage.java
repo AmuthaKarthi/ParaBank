@@ -10,7 +10,7 @@ public class AccountsPage extends BasePage {
 
     private By openNewAccountLink = By.linkText("Open New Account");
     private By accountTypeDropdown = By.id("type");
-   // private By fromAccountDropdown = By.id("fromAccountId");
+    private By fromAccountDropdown = By.id("fromAccountId");
     private By openAccountBtn = By.xpath("//input[@value='Open New Account']");
     private By congratulationsMessage = By.xpath("//p[contains(text(),'Congratulations')]");
     private By accountTable = By.xpath("//table[@id='accountTable']");
@@ -31,10 +31,10 @@ public class AccountsPage extends BasePage {
         Select select = new Select(driver.findElement(accountTypeDropdown));
         select.selectByValue(typeValue);
     }
-   /*  public void selectAccountNumber(String typeValue1) {
+    public void selectAccountNumber(String typeValue1) {
         Select select = new Select(driver.findElement(fromAccountDropdown));
         select.selectByValue(typeValue1);
-    } */
+    } 
     public void clickOpenAccount() {
         click(openAccountBtn);
     }
