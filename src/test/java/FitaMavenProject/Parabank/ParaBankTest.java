@@ -12,7 +12,7 @@ import ReuseableBase.BaseTest;
 public class ParaBankTest extends BaseTest {
 
     @Test
-    public void testFullEndToEndFlow() {
+    public void testFullEndToEndFlow() throws InterruptedException {
         // Registration
         driver.findElement(By.linkText("Register")).click();
         String randomName = RandomStringUtils.randomAlphabetic(8);
@@ -30,6 +30,7 @@ public class ParaBankTest extends BaseTest {
         AccountsPage accountsPage = new AccountsPage(driver);
         accountsPage.navigateToOpenNewAccount();
         accountsPage.selectAccountType("1"); // Savings
+        Thread.sleep(5000);
        // accountsPage.getAccountNumber("0");
         accountsPage.clickOpenAccount();
 
