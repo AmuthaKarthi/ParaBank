@@ -27,7 +27,8 @@ public class AccountsPage extends BasePage {
         click(openNewAccountLink);
     }
 
-    public void selectAccountType(String typeValue) {
+    public void selectAccountType(String typeValue) throws InterruptedException {
+    	Thread.sleep(4000);
     	waitForVisibility(accountTypeDropdown);
         Select select = new Select(driver.findElement(accountTypeDropdown));
         select.selectByValue(typeValue);
@@ -37,6 +38,7 @@ public class AccountsPage extends BasePage {
         select.selectByValue(typeValue1);
     } */
     public void clickOpenAccount() {
+    	waitForVisibility(openAccountBtn);
         click(openAccountBtn);
     }
 
